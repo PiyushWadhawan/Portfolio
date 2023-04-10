@@ -1,0 +1,112 @@
+.header {
+    width: 100vw;
+    padding: 2rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(206, 206, 205);
+}
+
+.nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 2rem;
+    list-style: none;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-logo,
+.nav-toggle {
+    color: black;
+    font-weight: 700;
+}
+
+.nav-icon,
+.nav-toggle {
+    display: none;
+}
+
+.active-link,
+.nav-link:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 769px) {
+    .header {
+        top: initial;
+        bottom: 0px;
+    }
+
+    .nav-menu {
+        position: fixed;
+        bottom: -100%;
+        left: 0;
+        width: 100%;
+        padding: 2rem 0rem 4rem;
+        background-color: rgb(217, 217, 217);
+        box-shadow: 0 -1px 4px rgba( 0, 0, 0, 0.15);
+        border-radius: 100px 1,5rem, 0, 0;
+        transition: all 0.3s ease-in-out;
+    }
+
+    /* Show Menu */
+
+    .show-menu {
+        bottom: 0;
+    }
+
+
+    .nav-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .nav-icon {
+        font-size: 1.2rem;
+    }
+
+    .nav-close {
+        position: absolute;
+        right: 20%;
+        bottom: 1.7rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    .nav-toggle {
+        font-size: 1.2rem;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .nav-icon,
+    .nav-toggle {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .nav-menu {
+        padding: 2rem 0.25rem 4rem;
+    }
+}
