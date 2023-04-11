@@ -7,10 +7,10 @@ import Resume from "../../Data/Resume.pdf"
 const Data = () => {
   return (
     <div className="home-data">
-        <h1 className="home-title">Piyush Wadhawan <span className="home-hand"><GiHand/></span></h1>
+        <h1 className="home-title">Hi, I'am Piyush <span className="home-hand"><GiHand/></span></h1>
         {/* <h3 className="home-subtitle">I'am</h3> */}
         <span className="typewriter">
-          <h3 className="home-subtitle">I'am a Front-End Developer</h3>
+          <h3 className="home-subtitle">Front-End Developer</h3>
         </span>
         <p className="home-description">I am a creative entry level developer, passionate about working on projects with other talent, contribute ideas and learn new things</p>
         <div className="home-btns">   
