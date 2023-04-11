@@ -7,6 +7,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.app {
+  background-color: red;
+}
+
 a {
   text-decoration: none;
 }

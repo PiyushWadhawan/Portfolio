@@ -50,7 +50,8 @@
 }
 
 .home-description {
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
+    color: rgb(139, 139, 139);
 }
 
 .home-btns {
@@ -66,7 +67,8 @@
 
 .btn-light:hover {
     color: white;
-    background-color: black;
+    background-color: green;
+    border: 1px solid green;
 }
 
 .home-img {
@@ -100,6 +102,10 @@
 
     .home-content {
         max-width: 90%;
+    }
+
+    .home-description {
+        margin-bottom: 1rem;
     }
 
     .home-img {
