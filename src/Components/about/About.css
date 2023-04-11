@@ -5,11 +5,9 @@
     align-items: center;
     gap: 5rem;
     width: 75%;
-    margin: 9rem auto;
-}
-
-.about-container hr {
-    width: 100%;
+    margin: 0rem auto;
+    height: 100vh;
+    border-top: 1px solid rgb(104, 104, 104);
 }
 
 .about-heading {
@@ -55,6 +53,7 @@
 
 .about-qual {
     display: flex;
+    justify-content: space-between;
     gap: 2rem;
 }
 
@@ -64,12 +63,41 @@
     border-radius: 1rem;
     padding: 1rem 1rem;
     text-align: center;
+    width: 46%;
 }
 
-@media screen and (max-width: 768px) {
+.exp p,
+.edu p {
+    color: rgb(139, 139, 139);
+    font-weight: 500;
+}
+
+.about-description {
+    color: rgb(139, 139, 139);
+    text-align: justify;
+}
+
+@media screen and (max-width: 1127px) {
+    .about-container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 939px) {
+    .about-container {
+        width: 90%;
+    }
+
+    .about-qual {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 789px) {
 
     .about-container {
         width: 90%;
+        gap: 3rem;
     }
     
     .about-content {
@@ -80,6 +108,8 @@
     .about-img {
         justify-content: center;
         align-items: center;
+        width: 200px;
+        height: 200px;
         max-width: 80%;
         margin: 0 auto;
     }
@@ -88,5 +118,65 @@
         max-width: 80%;
         margin: 0 auto;
     }
+}
+
+@media screen and (max-width: 605px)
+{
+
+    .about-data {
+        padding: 1rem;
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 540px)
+{
+
+    .about-title {
+        font-size: 2rem;
+    }
+
+    .about-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-qual {
+        gap: 0.5rem;
+    }
+
+    .edu,
+    .exp {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 505px)
+{
+
+    .about-container {
+        width: 97%;
+    }
+
+    .edu,
+    .exp {
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .about-title {
+        font-size: 1.7rem;
+    }
+
+    .about-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .about-description {
+        font-size: 0.8rem;
+    }
+    
 }
 
