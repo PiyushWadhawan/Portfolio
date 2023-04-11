@@ -173,10 +173,12 @@
     .about-subtitle {
         font-size: 1.1rem;
     }
+    
+}
+
+@media screen and (max-width:380px) {
 
     .about-description {
         font-size: 0.8rem;
     }
-    
 }
-
