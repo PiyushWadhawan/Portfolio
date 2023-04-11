@@ -46,6 +46,10 @@
     display: none;
 }
 
+.active-link {
+    font-weight: bold;
+}
+
 .active-link,
 .nav-link:hover {
     transform: scale(1.1);
