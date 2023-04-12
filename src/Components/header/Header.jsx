@@ -32,7 +32,7 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a href="skills" className="nav-link">
+              <a href="#skills" className="nav-link">
               <span className="nav-icon"><GiSecretBook/></span>Skills
               </a>
             </li>
