@@ -55,6 +55,7 @@
     .header {
         top: initial;
         bottom: 0px;
+        z-index: 3;
     }
 
     .nav-menu {

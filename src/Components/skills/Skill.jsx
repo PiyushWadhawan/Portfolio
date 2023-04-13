@@ -5,9 +5,9 @@ import Data from './Data'
 
 const Skill = () => {
   return (
-    <div className="skills-container">
+    <div id="skills" className="skills-container">
       <div className="skills-heading">
-        <h1 id="skills" className='skills-title'>Skills</h1>
+        <h1 className='skills-title'>Skills</h1>
         <p className='skills-subtitle'>What all I know</p>
       </div>
 

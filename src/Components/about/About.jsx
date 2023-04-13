@@ -4,10 +4,10 @@ import Data from './Data'
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div id="about" className="about-container">
 
         <div className="about-heading">
-            <p id='about' className="about-subtitle">Get to know more</p>
+            <p className="about-subtitle">Get to know more</p>
             <h1 className="about-title">About Me</h1>
         </div>
         <div className="about-content">

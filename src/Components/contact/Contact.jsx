@@ -8,9 +8,9 @@ import { MdEmojiPeople } from "react-icons/md"
 
 const Contact = () => {
   return (
-    <div className="contact-container">
+    <div id="contact" className="contact-container">
         <div className="contact-heading">
-            <p id="contact" className="contact-subtitle">Get in touch</p>
+            <p className="contact-subtitle">Get in touch</p>
             <h1 className="contact-title">Contact Me</h1>
         </div>
         <div className="contact-content">

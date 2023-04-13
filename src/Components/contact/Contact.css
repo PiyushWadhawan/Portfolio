@@ -107,7 +107,7 @@
     left: 1.25rem;
     font-size: 0.9rem;
     padding: 0.25rem;
-    z-index: 10;
+    z-index: 2;
     background-color: white;
     color: rgb(139, 139, 139);
 }
@@ -142,44 +142,99 @@
 
 @media screen and (max-width: 850px) {
     
-    .skills-container {
-        gap: 3rem;
+    .contact-content {
+        width: 100%;
     }
-
-    .skills-name {
-        font-size: 1rem;
-    }
-
-    .skills-level {
-        font-size: 0.8rem;
-    }
-    
-}
-
-@media screen and (max-width: 540px) {
-
-    .skills-title {
-        font-size: 2rem;
-    }
-    .skills-content {
-        gap: 3rem;
+    .contact-form {
+        width: 70%;
+        padding:2rem 0;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
 
     .skills-container {
         width: 97%;
     }
+
+    .contact-form {
+        width: 80%;
+    }
+    .contact-info {    
+        width: 20%;
+        padding: 2rem 0.5rem;
+    }
+    
+    .contact-card {
+        width: 95%;
+        padding: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+
+    .contact-container {
+        width: 97%;
+    }
+
+    .contact-title {
+        font-size: 2rem;
+    }
+
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-info h3 {
+        display: none;
+    }
+
+    .contact-info {
+        width: 100%;
+        flex-direction: row;
+        padding: 0;
+        gap: 0.5rem;
+    }
+
+    .contact-card {
+        padding: 0;
+    }
+
+    .contact-form {
+        margin: 0rem;
+        width: 100%;
+        gap: 0.5rem;
+        padding: 2rem 0;
+        position: relative;
+    }
+
+    .form {
+        padding: 0 0 2rem 0;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-div {
+        width: 100%;
+        height: 100%;
+        margin: 2.5rem 0;
+    }
+
+    .form-input {
+        width: 87%;
+    }
+
+    textarea.form-input {
+        padding-bottom: 2rem;
+    } 
+
 }
 
 @media screen and (max-width: 421px) {
 
-    .skills-content {
-        width: 90%;
-        padding: 3rem 1rem;
-        gap: 1rem;
-    }
+    
 }
 
 @media screen and (max-width: 400px) {
