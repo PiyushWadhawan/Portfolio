@@ -21,19 +21,19 @@ const Contact = () => {
                     <span className="contact-icon"><HiMail/></span>
                     <h3 className="contact-type">Email</h3>
                     <p className="info">abc@gmail.com</p>
-                    <a href="" className="contact-link">Write me <BiRightArrowAlt/></a>
+                    <a href="#contact" className="contact-link">Write me <BiRightArrowAlt/></a>
                 </div>
                 <div className="contact-card">
                     <span className="contact-icon"><BsWhatsapp/></span>
                     <h3 className="contact-type">Whatsapp</h3>
                     <p className="info">9934565721</p>
-                    <a href="" className="contact-link">Write me <BiRightArrowAlt/></a>
+                    <a href="#contact" className="contact-link">Write me <BiRightArrowAlt/></a>
                 </div>
                 <div className="contact-card">
                     <span className="contact-icon"><SiMicrosoftoutlook/></span>
                     <h3 className="contact-type">Outlook</h3>
                     <p className="info">abc@outlook.com</p>
-                    <a href="" className="contact-link">Write me <BiRightArrowAlt/></a>
+                    <a href="#contact" className="contact-link">Write me <BiRightArrowAlt/></a>
                 </div>
             </div>
 
@@ -53,7 +53,7 @@ const Contact = () => {
                         <textarea id="project" name="project" className="form-input" placeholder='Tell me about the project'/>
                     </div>
                 </form>
-                <a href="" className="button btn-size">Send Message <span className="span-icon"><MdEmojiPeople/></span></a>
+                <a href="#contact" className="button btn-size">Send Message <span className="span-icon"><MdEmojiPeople/></span></a>
             </div>
 
         </div>
