@@ -64,15 +64,15 @@
 }
 
 .btn-light {
-    color: black;
-    background-color: white;
-    border:1px solid black;
-}
-
-.btn-light:hover {
     color: white;
     background-color: green;
     border: 1px solid green;
+}
+
+.btn-light:hover {
+    color: black;
+    background-color: rgb(38, 251, 38);
+    border:1px solid rgb(38, 251, 38);
 }
 
 .home-img {

@@ -1,8 +1,8 @@
 import React from 'react'
 import { GiHand } from "react-icons/gi"
 import { MdEmojiPeople } from "react-icons/md"
-import { HiDocument } from "react-icons/hi"
-import Resume from "../../Data/Resume.pdf"
+import { FaProjectDiagram } from 'react-icons/fa'
+
 
 const Data = () => {
   return (
@@ -15,11 +15,9 @@ const Data = () => {
         <p className="home-description">I am a creative entry level developer, passionate about working on projects with other talent, contribute ideas and learn new things</p>
         <div className="home-btns">   
             <a href="#contact" className="button button-flex btn-size">
-                Say Hello <MdEmojiPeople/>
+                Say Hello <span className="span-icon"><MdEmojiPeople/></span>
             </a>
-            <a download={Resume} href={Resume} className="button button-flex btn-light btn-size" target='_blank' rel="noreferrer">
-                Resume <HiDocument/>
-            </a>
+            <a href="#portfolio" className="button button-flex btn-light btn-size">Portfolio <span className="span-icon"><FaProjectDiagram/></span></a>
         </div>
     </div>
   )

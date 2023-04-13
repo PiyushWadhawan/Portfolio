@@ -7,9 +7,9 @@ html {
   scroll-behavior: smooth;
 }
 
-.app {
-  background-color: red;
-}
+/* .app {
+  background-color: ;
+} */
 
 a {
   text-decoration: none;
@@ -29,10 +29,15 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
+.span-icon {
+  margin-left: 0.5rem;
+}
+
 .button:hover {
-  background-color: white;
-  color: black;
+  background-color: rgb(45, 45, 45);
+  color: white;
   border: 1px solid black;
+  transform: scale(1.05);
 }
 
 .button-flex {

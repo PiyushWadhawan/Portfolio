@@ -78,6 +78,11 @@
     text-align: justify;
 }
 
+.about-btn {
+    width: 6rem;
+    text-align: center;
+}
+
 @media screen and (max-width: 1127px) {
     .about-container {
         width: 90%;
@@ -118,6 +123,11 @@
     .about-data {
         max-width: 80%;
         margin: 0 auto;
+    }
+
+    .about-btn {
+        margin: 0 auto;
+        width: 6rem;
     }
 }
 
