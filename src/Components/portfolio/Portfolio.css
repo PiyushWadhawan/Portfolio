@@ -1,0 +1,85 @@
+.port-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    width: 75%;
+    margin: 0rem auto;
+    min-height: 40rem;
+    height: 100vh;
+    border-top: 1px solid rgb(104, 104, 104);
+}
+
+.port-heading {
+    text-align: center;
+}
+
+.port-title {
+    font-size: 3rem;
+}
+
+.port-subtitle {
+    color: rgb(104, 104, 104);
+    font-weight: 600;
+}
+
+.port-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.port-card {
+    cursor: pointer;
+    min-width: 350px;
+    min-height: 200px;
+    max-width: 250px;
+    max-height: 150px;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid rgb(188, 188, 188);
+}
+
+.port-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+}
+
+.port-card:hover .port-image {
+    transform: scale(1.1);
+}
+
+.cover {
+    background-color: black;
+    border-radius: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 100%;
+    left: 0;
+    bottom: -100%;
+    transition: all 0.5s ease-in-out;
+    opacity: 0.7;
+}
+
+.port-card:hover .cover {
+    z-index: 1;
+    top: 0;
+    bottom: 100%;
+}
+
+.cover span {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}

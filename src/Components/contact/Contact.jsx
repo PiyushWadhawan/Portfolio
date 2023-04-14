@@ -41,15 +41,15 @@ const Contact = () => {
                 <h3 className="contact-head">Write me your project</h3>
                 <form className="form">
                     <div className="form-div">
-                        <label for="name" className="form-tag">Name</label>
+                        <label htmlFor="name" className="form-tag">Name</label>
                         <input id="name" type="text" name="name" className="form-input" placeholder='Enter your name'/>
                     </div>
                     <div className="form-div">
-                        <label for="email" className="form-tag">Email</label>
+                        <label htmlFor="email" className="form-tag">Email</label>
                         <input id="email" type="text" name="email" className="form-input" placeholder='Enter your email id'/>
                     </div>
                     <div className="form-div">
-                        <label for="project" className="form-tag">Project</label>
+                        <label htmlFor="project" className="form-tag">Project</label>
                         <textarea id="project" name="project" className="form-input" placeholder='Tell me about the project'/>
                     </div>
                 </form>
