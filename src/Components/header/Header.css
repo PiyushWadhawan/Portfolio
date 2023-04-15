@@ -6,6 +6,7 @@
     left: 0;
     border-bottom: 1px solid rgb(188, 188, 188);
     background-color: #ffffff;
+    z-index: 3;
 }
 
 .nav {

@@ -10,35 +10,51 @@ import dicegame from "../Images/DiceGame.png"
 const port_data = [
     {
         "name": "Deep Dive",
-        "image": deepdive
+        "image": deepdive,
+        "description": "Front-end for a career guidance website",
+        "tech": ["HTML", "CSS", "JavaScript", "React Js"]
     },
     {
         "name": "LearnIt!",
-        "image": learnit
+        "image": learnit,
+        "description": "Front-end for a career guidance website",
+        "tech": ["HTML", "CSS", "JavaScript", "React Js"]
     },
     {
         "name": "E-Learn",
-        "image": elearn
+        "image": elearn,
+        "description": "Front-end for a career guidance website",
+        "tech": ["HTML", "CSS", "JavaScript", "React Js"]
     },
     {
         "name": "Blog Station",
-        "image": blogstation
+        "image": blogstation,
+        "description": "Front-end for a career guidance website",
+        "tech": ["HTML", "CSS", "JavaScript", "React Js"]
     },
     {
         "name": "Check on Ease",
-        "image": checkonease
+        "image": checkonease,
+        "description": "Front-end for a career guidance website",
+        "tech": ["HTML", "CSS", "JavaScript", "React Js"]
     },
     {
         "name": "Leyndell Inn",
-        "image": leyndell_in
+        "image": leyndell_in,
+        "description": "Front-end for a career guidance website",
+        "tech": ["HTML", "CSS", "JavaScript", "React Js"]
     },
     {
         "name": "Feedback-App",
-        "image": feedbackapp
+        "image": feedbackapp,
+        "description": "Front-end for a career guidance website",
+        "tech": ["HTML", "CSS", "JavaScript", "React Js"]
     },
     {
         "name": "Dice Game",
-        "image": dicegame
+        "image": dicegame,
+        "description": "Front-end for a career guidance website",
+        "tech": ["HTML", "CSS", "JavaScript", "React Js"]
     }
 ]
 

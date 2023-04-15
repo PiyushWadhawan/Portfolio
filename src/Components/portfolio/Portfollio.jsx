@@ -4,7 +4,7 @@ import PortfolioList from './PortfolioList'
 import project_data from '../../Data/Portfolio-data' 
 import Pagination from './Pagination'
 
-const Portfollio = () => {
+const Portfollio = ({showModal}) => {
 
     const projects = project_data;
 
@@ -41,13 +41,15 @@ const Portfollio = () => {
 
 
   return (
-    <div id="portfolio" className="port-container">
-        <div className="port-heading">
-            <h1 className="port-title">Portfolio</h1>
-            <p className="port-subtitle">View my work</p>
-        </div>
-        <PortfolioList projects={currentProjects}/>
-        <Pagination totalCards={projects.length} cardsPerPage={cardsPerPage} setCurrentPage={setCurrentPage} currentPage={currentPage}/>
+    <div className='port-main'>
+      <div id="portfolio" className="port-container">
+          <div className="port-heading">
+              <h1 className="port-title">Portfolio</h1>
+              <p className="port-subtitle">View my work</p>
+          </div>
+          <PortfolioList projects={currentProjects} showModal={showModal}/>
+          <Pagination totalCards={projects.length} cardsPerPage={cardsPerPage} setCurrentPage={setCurrentPage} currentPage={currentPage}/>
+      </div>
     </div>
   )
 }
