@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 3rem;
     width: 75%;
     margin: 0rem auto;
     min-height: 40rem;
@@ -29,15 +29,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    column-gap: 5rem;
+    row-gap: 2rem;
 }
 
 .port-card {
     cursor: pointer;
-    min-width: 350px;
-    min-height: 200px;
-    max-width: 250px;
-    max-height: 150px;
+    /* min-width: 500px; */
+    /* min-height: 270px; */
+    width: 35%;
     border-radius: 30px;
     overflow: hidden;
     position: relative;
@@ -82,4 +82,110 @@
     color: white;
     font-size: 2rem;
     font-weight: bold;
+}
+
+.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pagination button {
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 1600px) {
+
+    .port-container {
+        gap: 3rem;
+    }
+    
+    .port-card {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .port-container {
+        width: 90%;
+    }
+
+    .port-content {
+        column-gap: 5rem;
+        row-gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .port-content {
+        column-gap: 3rem;
+    }
+
+    .port-card {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .port-container {
+        width: 95%;
+    }
+
+    .port-content {
+        column-gap: 0rem;
+        justify-content: space-evenly;
+    }
+
+    .port-card {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    .port-container {
+        width: 95%;
+    }
+
+    .port-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .port-card {
+        width: 68%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    .port-title {
+        font-size: 2rem;
+    }
+    .port-container {
+        gap: 2rem;
+    }
+
+    .port-card {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .port-container {
+        gap: 2rem;
+    }
+
+    .port-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .port-card {
+        width: 95%;
+    }
 }

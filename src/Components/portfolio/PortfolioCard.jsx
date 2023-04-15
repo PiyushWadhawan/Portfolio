@@ -1,5 +1,4 @@
 import React from 'react'
-import a from '../../Images/DeepDive.png'
 
 const PortfolioCard = ({name, color, image}) => {
   return (

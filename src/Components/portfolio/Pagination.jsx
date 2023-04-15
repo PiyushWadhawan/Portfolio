@@ -8,7 +8,7 @@ const Pagination = ({totalCards, cardsPerPage, setCurrentPage, currentPage}) => 
     }
 
   return (
-    <div>
+    <div className='pagination'>
       {
         pages.map((page, index) => {
             return <button key={index} onClick={() => setCurrentPage(page)} className={page == currentPage? 'active': ''}>{page}</button>
