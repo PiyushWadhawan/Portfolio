@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './Portfolio.css'
 import PortfolioList from './PortfolioList'
 import project_data from '../../Data/Portfolio-data' 
@@ -16,28 +16,28 @@ const Portfollio = () => {
 
     const currentProjects = projects.slice(firstCardIndex, lastCardIndex);
 
-    const [windowSize, setWindowSize] = useState([
-      window.innerWidth,
-      window.innerHeight,
-    ]);
+    // const [windowSize, setWindowSize] = useState([
+    //   window.innerWidth,
+    //   window.innerHeight,
+    // ]);
 
-    useEffect(() => {
-      const handleWindowResize = () => {
-        setWindowSize([window.innerWidth, window.innerHeight]);
-      };
+    // useEffect(() => {
+    //   const handleWindowResize = () => {
+    //     setWindowSize([window.innerWidth, window.innerHeight]);
+    //   };
 
-      window.addEventListener('resize', handleWindowResize);
-      if(windowSize[0]<=1100) {
-        setCardPerPage(2);
-      }
-      else {
-        setCardPerPage(4);
-      }
+    //   window.addEventListener('resize', handleWindowResize);
+    //   if(windowSize[0]<=1100) {
+    //     setCardPerPage(2);
+    //   }
+    //   else {
+    //     setCardPerPage(4);
+    //   }
 
-      return () => {
-        window.removeEventListener('resize', handleWindowResize);
-      };
-    });
+    //   return () => {
+    //     window.removeEventListener('resize', handleWindowResize);
+    //   };
+    // });
 
 
   return (
