@@ -18,23 +18,15 @@ function App() {
       tech: []
   }) 
 
-    // let modal_data = {
-    //   name: "", 
-    //   image: null
-    // }
-
-    const showModal = (name, image, description, tech) => {
+    const showModal = (name, image, description, tech, github, site) => {
       displayModal(!modal);
-      // modal_data = { ...data };
-      // console.log(modal_data);
-      // console.log(daata);
-      setDaata(name, image, description, tech);
+      setDaata(name, image, description, tech, github, site);
     }
 
   return (
     <div className="App">
       <Header/>
-      {modal? <Modal name={daata.name} image={daata.image} description={daata.description} tech={daata.tech} modal={modal} displayModal={displayModal}/> : "" }
+      {modal? <Modal name={daata.name} image={daata.image} description={daata.description} tech={daata.tech} github={daata.github} site={daata.site} modal={modal} displayModal={displayModal}/> : "" }
       <Home/>
       <Portfollio showModal={showModal}/>
       <About/>

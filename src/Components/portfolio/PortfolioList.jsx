@@ -6,7 +6,7 @@ const PortfolioList = ({projects, showModal}) => {
     <div className="port-content">
         {
             projects.map((project, index) => {
-                return <PortfolioCard key={index} name={project.name} image={project.image} description={project.description} tech={project.tech} showModal={showModal}/>
+                return <PortfolioCard key={index} name={project.name} image={project.image} description={project.description} tech={project.tech} github={project.github} site={project.site} showModal={showModal}/>
         })} 
     </div>
   )
