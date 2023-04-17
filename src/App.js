@@ -28,9 +28,9 @@ function App() {
       <Header/>
       {modal? <Modal name={daata.name} image={daata.image} description={daata.description} tech={daata.tech} github={daata.github} site={daata.site} modal={modal} displayModal={displayModal}/> : "" }
       <Home/>
-      <Portfollio showModal={showModal}/>
       <About/>
       <Skill/>
+      <Portfollio showModal={showModal}/>
       <Contact/>
     </div>
   );
