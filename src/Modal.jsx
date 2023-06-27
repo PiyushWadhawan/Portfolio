@@ -19,7 +19,7 @@ const Modal = ({name, image, description, tech, github, site, modal, displayModa
               <li>Tech Stack:</li>
               {
                 tech.map((item) => {
-                  return <li>{item}</li>
+                  return <li key={item.index}>{item}</li>
                 })
               }
             </ul>
