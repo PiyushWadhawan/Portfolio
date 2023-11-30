@@ -1,46 +1,42 @@
 [
-    {
-        "id": 1,
-        "name": "HTML",
-        "level": "Intermediate"
-    },
-    {
-        "id": 2,
-        "name": "CSS",
-        "level": "Intermediate"
-    },
-    {
-        "id": 3,
-        "name": "Javascript",
-        "level": "Intermediate"
-    },
-    {
-        "id": 4,
-        "name": "Bootstrap",
-        "level": "Basic"
-    },
-    {
-        "id": 5,
-        "name": "React",
-        "level": "Basic"
-    },
-    {
-        "id": 6,
-        "name": "C++",
-        "level": "Intermediate"
-    },
-    {
-        "id": 7,
-        "name": "Java",
-        "level": "Intermediate"
-    },
-    {
-        "id": 8,
-        "name": "Python",
-        "level": "Basic"
-    }
-
-
-
+  {
+    "id": 1,
+    "name": "HTML",
+    "level": "Intermediate"
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "level": "Intermediate"
+  },
+  {
+    "id": 3,
+    "name": "Javascript",
+    "level": "Intermediate"
+  },
+  {
+    "id": 4,
+    "name": "Bootstrap",
+    "level": "Basic"
+  },
+  {
+    "id": 5,
+    "name": "React",
+    "level": "Basic"
+  },
+  {
+    "id": 6,
+    "name": "C++",
+    "level": "Intermediate"
+  },
+  {
+    "id": 7,
+    "name": "Java",
+    "level": "Intermediate"
+  },
+  {
+    "id": 8,
+    "name": "AWS",
+    "level": "Basic"
+  }
 ]
-
