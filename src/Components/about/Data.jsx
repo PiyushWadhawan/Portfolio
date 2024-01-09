@@ -26,11 +26,11 @@ const Data = () => {
         </div>
       </div>
       <p className="about-description">
-        I am a front-end developer aiming to become a full-stack developer in
-        the future. I started learning web dvelopment as I found it fun to
-        design websites. I got started by creating simple web pages using html
-        and css, gradually learning javascript after which I moved to React all
-        the while learning AWS on the side to broaden the scope of my knowledge
+        My name is Piyush and I am a full-stack developer (MERN). I started
+        learning web dvelopment as I found it fun to design websites. I got
+        started by creating simple web pages using html and css, gradually
+        learning javascript after which I moved to MERN all the while learning
+        AWS on the side to broaden the scope of my knowledge
       </p>
       <a
         download={Resume}
