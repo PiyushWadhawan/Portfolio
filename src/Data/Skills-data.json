@@ -26,16 +26,31 @@
   },
   {
     "id": 6,
+    "name": "Express",
+    "level": "Basic"
+  },
+  {
+    "id": 7,
+    "name": "Node",
+    "level": "Basic"
+  },
+  {
+    "id": 8,
+    "name": "MongoDB",
+    "level": "Basic"
+  },
+  {
+    "id": 9,
     "name": "C++",
     "level": "Intermediate"
   },
   {
-    "id": 7,
+    "id": 10,
     "name": "Java",
     "level": "Intermediate"
   },
   {
-    "id": 8,
+    "id": 11,
     "name": "AWS",
     "level": "Basic"
   }
